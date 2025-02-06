@@ -29,6 +29,8 @@ with col1:
     if st.button("Create New Profile", use_container_width=True):
         st.switch_page("pages/1_💬_Chat_Assistant.py")
 with col2:
-    st.button("Start Chat Assistant", use_container_width=True)
+    if st.button("Start Chat Assistant", use_container_width=True):
+        st.switch_page("pages/2_👤_Profile_Optimizer.py")
 with col3:
-    st.button("View Analytics", use_container_width=True)
+    if st.button("View Analytics", use_container_width=True):
+        st.switch_page("pages/3_📊_Analytics.py")
