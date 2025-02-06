@@ -1,0 +1,3 @@
+[runner]
+# Change the entry point file here
+main = "Swipe_Genius.py"
